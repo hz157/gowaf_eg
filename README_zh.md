@@ -32,6 +32,11 @@ GoWAF架构包括`waf-gate`网关和`waf-server`服务器两大部分，以及�
 
 ## 配置与启动
 
+### 数据库支持
+1. mysql数据库需导入，文件在[db/mysql_waf.sql](./db/mysql_waf.sql)
+2. Redis数据库db0中，需要有键值SysConfig，对应的数据如下
+![Redis](./db/Snipaste_2024-05-13_11-40-04.png)
+
 ### waf-server 配置
 
 ```toml

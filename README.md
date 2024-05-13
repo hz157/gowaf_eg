@@ -32,6 +32,11 @@ GoWAF's architecture includes the `waf-gate` gateway and the `waf-server` server
 
 ## Configuration and Launch
 
+### Database support
+1. MySQL database needs to be imported. The file is in [db/mysql_waf.sql](./db/mysql_waf.sql)
+2. In the Redis database db0, the key value SysConfig is required, and the corresponding data is as follows
+![Redis](./db/Snipaste_2024-05-13_11-40-04.png)
+
 ### waf-server Configuration
 
 ```toml
