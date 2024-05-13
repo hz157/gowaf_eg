@@ -1,0 +1,14 @@
+# 网关ID用于读取Redis数据库中的参数
+[Gate]
+GateId = ""
+
+
+# redis数据库参数
+[Redis]
+Host = ""
+Port = ""
+Password  = ""
+
+
+
+

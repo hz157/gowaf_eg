@@ -1,0 +1,15 @@
+[Server]
+# WafServer的监听地址
+WafServerAddress = "127.0.0.1:8000"
+
+# WafServer接口地址
+HttpAPIAddress = "127.0.0.1:8001"
+
+# 服务端ID，用于redis数据库
+ServerId = ""
+
+# redis数据库参数
+[Redis]
+Host = ""
+Port = ""
+Password  = ""
