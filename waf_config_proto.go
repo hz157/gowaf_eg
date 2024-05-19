@@ -52,6 +52,7 @@ type Redis struct {
 type TPS struct {
 	ThreatbookApiKey string
 	AIApiKey         string
+	AIType           string
 }
 
 type Threshold struct {

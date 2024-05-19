@@ -84,7 +84,7 @@ func main() {
 
 	// 初始化ThreatBook APIKEY
 	gowaf.ThreatBookInit(s.Tps.ThreatbookApiKey)
-	gowaf.GPTInit(s.Tps.AIApiKey)
+	gowaf.GPTInit(s.Tps.AIApiKey, s.Tps.AIType)
 
 	// 打印监听
 	log.Println("waf-server listen at: ", c.Server.WafServerAddress)
