@@ -1,3 +1,11 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: Ryan Zhang (gitHub.com/hz157)
+ * @Date: 2024-05-19 23:59:19
+ * @LastEditors: Ryan Zhang
+ * @LastEditTime: 2024-05-20 00:06:55
+-->
 # GoWAF - Go-Powered Web Application Firewall (WAF)
 
 GoWAF is a web application firewall developed in Go, featuring HTTP/HTTPS reverse proxy capabilities. It consists of two main components: `waf-gate`, a gateway, and `waf-server`, a server that performs detection tasks, designed to provide comprehensive security for web applications.
@@ -34,7 +42,8 @@ GoWAF's architecture includes the `waf-gate` gateway and the `waf-server` server
 
 ### Database support
 1. MySQL database needs to be imported. The file is in [db/mysql_waf.sql](./db/mysql_waf.sql)
-2. In the Redis database db0, the key value SysConfig is required, and the corresponding data is as follows
+2. In the Redis database db0, the key value SysConfig is required, and the corresponding data is as follows<br>
+**Tips: [2024-05-20] SysConfig Hash adds AI Type field for LLM model selection**
 ![Redis](./db/Snipaste_2024-05-13_11-40-04.png)
 
 ### waf-server Configuration
